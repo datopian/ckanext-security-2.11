@@ -38,6 +38,8 @@ def default_user_schema():
         'reset_key': [ignore],
         'activity_streams_email_notifications': [ignore_missing],
         'state': [ignore_missing],
+        'image_url': [ignore_missing],
+        'image_display_url': [ignore_missing],
     }
     return schema
 
